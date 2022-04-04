@@ -21,6 +21,7 @@ import {TouchableOpacityExamplePage} from './examples/TouchableOpacityExamplePag
 import {SwitchExamplePage} from './examples/SwitchExamplePage';
 import {ViewExamplePage} from './examples/ViewExamplePage';
 import {ImageExamplePage} from './examples/ImageExamplePage';
+import {MouseEventsExamplePage} from './examples/MouseEventsExamplePage';
 import {PressableExamplePage} from './examples/PressableExamplePage';
 import {FlatListExamplePage} from './examples/FlatListExamplePage';
 import {ScrollViewExamplePage} from './examples/ScrollViewExample';
@@ -115,6 +116,12 @@ export const RNGalleryList: Array<IRNGalleryExample> = [
     component: ImageExamplePage,
     icon: '\uEB9F',
     type: 'Media',
+  },
+  {
+    key: 'MouseEvents',
+    component: MouseEventsExamplePage,
+    icon: '\uEB9F',
+    type: 'Basic Input',
   },
   {
     key: 'Permissions',
